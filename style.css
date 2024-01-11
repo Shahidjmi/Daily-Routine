@@ -1,0 +1,133 @@
+
+body{
+    background-color: #2d3436;
+    margin: 0;
+}
+.section-center {
+    width: 90vw;
+    margin: auto;
+    max-width: 30rem;
+    margin-top: 8rem; 
+    background-color: #55efc4;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 12px 15px rgb(200, 212, 210);
+    transition: all 0.3s linear;
+}
+.section-center:hover{
+    box-shadow: 0 5px 15px rgb(164, 158, 158);
+}
+.alert{
+    height: 1rem;
+    display: grid;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    
+}
+.alert-success{
+   color: black;
+   background-color: pink;
+   
+}
+.alert-danger{
+    color: black;
+    background-color: lightblue;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.form-control{
+   display: flex;
+   justify-content: center;
+   
+}
+#exercise{
+    padding: 0.50rem;
+    padding-left: 1rem;
+    background-color: rgb(182, 241, 221);
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-color: transparent;
+    font-size: 1rem;
+    color:black;
+    flex: 1 0 auto;
+
+}
+.submit-btn{
+    flex: 0 0 5rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-color: transparent;
+    cursor:pointer;
+    text-transform: capitalize;
+    background-color: rgb(201, 201, 227);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+    
+}
+.submit-btn:hover{
+    background-color: rgb(144, 175, 233);
+    color: white;
+}
+
+.exercise-container{
+    margin-top: 2rem;
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
+.exercise-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    transition: all o.3s linear;
+}
+.exercise-item:hover{
+  background: rgb(244, 215, 220);
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+.edit-btn,.delete-btn{
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+}
+.edit-btn:hover {
+    color: white;
+}
+.delete-btn:hover {
+    color: red;
+}
+.clear-btn {
+    display: grid;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.1s linear;
+}
+.clear-btn:hover{
+    color: red;
+}
+
+
+
+
+
+  
